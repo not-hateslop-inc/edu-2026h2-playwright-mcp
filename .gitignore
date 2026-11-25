@@ -1,0 +1,22 @@
+# 비밀 정보
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 실행 결과
+chroma_db/
+out/
+results/*.json
+!results/.gitkeep
+traces/*.jsonl
+!traces/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
